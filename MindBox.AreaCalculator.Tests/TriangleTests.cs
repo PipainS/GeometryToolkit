@@ -229,5 +229,36 @@ namespace MindBox.AreaCalculator.Tests
             // Act & Assert
             Assert.Throws<ArgumentException>(() => new Triangle(sideA, sideB, sideC));
         }
+
+        [Theory]
+        [InlineData(3, 4, 5)]
+        [InlineData(5, 12, 13)]
+        [InlineData(8, 15, 17)]
+        public void IsRightTriangleCondition_ShouldReturnTrue_ForRightTriangles(double sideA, double sideB, double sideC)
+        {
+            // Arrange
+            var triangle = new Triangle(sideA, sideB, sideC);
+
+            // Act
+            var result = triangle.IsRightTriangle;
+
+            // Assert
+            Assert.True(result);
+        }
+
+        [Theory]
+        [InlineData(2, 2, 3)]
+        [InlineData(5, 5, 8)]
+        public void IsRightTriangleCondition_ShouldReturnFalse_ForNonRightTriangles(double sideA, double sideB, double sideC)
+        {
+            // Arrange
+            var triangle = new Triangle(sideA, sideB, sideC);
+
+            // Act
+            var result = triangle.IsRightTriangle;
+
+            // Assert
+            Assert.False(result);
+        }
     }
 }

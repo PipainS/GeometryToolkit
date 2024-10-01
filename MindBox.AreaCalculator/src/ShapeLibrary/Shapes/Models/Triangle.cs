@@ -25,6 +25,11 @@ namespace MindBox.AreaCalculator.src.ShapeLibrary.Shapes.Models
         /// </summary>
         public double SideC { get; init; }
 
+        // <summary>
+        /// Gets a value indicating whether the triangle is a right triangle.
+        /// </summary>
+        public bool IsRightTriangle => IsRightTriangleCondition(SideA, SideB, SideC);
+
         /// <summary>
         /// Initializes a new instance of the <see cref="Triangle"/> class using side lengths.
         /// </summary>
@@ -62,6 +67,18 @@ namespace MindBox.AreaCalculator.src.ShapeLibrary.Shapes.Models
         }
 
         /// <summary>
+        /// Calculates the area of the triangle using Heron's formula.
+        /// </summary>
+        /// <returns>The area of the triangle.</returns>
+        public override double CalculateArea()
+        {
+            // Semi-perimeter of the triangle.
+            double semiPerimeter = (SideA + SideB + SideC) / ShapeConstants.SemiPerimeterFactor;
+
+            return Math.Sqrt(semiPerimeter * (semiPerimeter - SideA) * (semiPerimeter - SideB) * (semiPerimeter - SideC));
+        }
+
+        /// <summary>
         /// Validates the lengths of the triangle's sides.
         /// Throws an exception if the sides do not form a valid triangle.
         /// </summary>
@@ -74,15 +91,18 @@ namespace MindBox.AreaCalculator.src.ShapeLibrary.Shapes.Models
         }
 
         /// <summary>
-        /// Calculates the area of the triangle using Heron's formula.
+        /// Determines if the triangle is a right triangle using the Pythagorean theorem.
         /// </summary>
-        /// <returns>The area of the triangle.</returns>
-        public override double CalculateArea()
+        private static bool IsRightTriangleCondition(double sideA, double sideB, double sideC)
         {
-            // Semi-perimeter of the triangle.
-            double semiPerimeter = (SideA + SideB + SideC) / ShapeConstants.SemiPerimeterFactor;
+            double[] sides = [sideA, sideB, sideC];
+            Array.Sort(sides);
 
-            return Math.Sqrt(semiPerimeter * (semiPerimeter - SideA) * (semiPerimeter - SideB) * (semiPerimeter - SideC));
+            double aSquared = sides[ShapeConstants.SideAIndex] * sides[ShapeConstants.SideAIndex];
+            double bSquared = sides[ShapeConstants.SideBIndex] * sides[ShapeConstants.SideBIndex];
+            double cSquared = sides[ShapeConstants.SideCIndex] * sides[ShapeConstants.SideCIndex];
+
+            return Math.Abs(aSquared + bSquared - cSquared) < ShapeConstants.Tolerance;
         }
 
         /// <summary>

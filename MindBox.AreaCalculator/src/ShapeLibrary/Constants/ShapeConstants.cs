@@ -40,6 +40,12 @@
         public const double MaxSideLength = 1E+75;
 
         /// <summary>
+        /// Determines if the given sides form a right triangle using the Pythagorean theorem.
+        /// </summary>
+        /// <returns>True if the sides form a right triangle, otherwise false.</returns>
+        public const double Tolerance = 1e-10;
+
+        /// <summary>
         /// Index constants for triangle sides
         /// </summary>
         public const int SideAIndex = 0; // Index for side A
