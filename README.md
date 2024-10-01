@@ -6,6 +6,7 @@
 
 ## Project Structure
 
+```
 MindBox.Kubernetes
 ├── geometry-toolkit-manifest.yaml       # Solution for assignment #3
 tests
@@ -33,7 +34,7 @@ MindBox.AreaCalculator  # Solution for assignment #2
             ├── CircleUtils.cs             # Utility methods for circles
             ├── TriangleUtils.cs           # Utility methods for triangles
             └── ValidationExtensions.cs    # Validation extension methods
-
+```
 ## Installation
 
 You can clone the repository using the following command:
@@ -44,4 +45,6 @@ git clone https://github.com/PipainS/GeometryToolkit.git
 
 Testing
 Unit tests for the library can be found in the MindBox.AreaCalculator.Tests project. You can run the tests using the following command:
+```bash
 dotnet test
+```
