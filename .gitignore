@@ -1,2 +1,9 @@
 
 /.vs
+*.cache
+/MindBox.AreaCalculator.Tests/obj/Debug
+/MindBox.AreaCalculator/obj
+/MindBox.AreaCalculator/obj
+/MindBox.AreaCalculator/obj
+/MindBox.AreaCalculator/obj
+/MindBox.AreaCalculator.Tests/obj
