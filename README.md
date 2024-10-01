@@ -1,10 +1,11 @@
-GeometryToolkit
+# GeometryToolkit
 
-Overview
+## Overview
 
-GeometryToolkit is a library designed to calculate the areas of various geometric shapes, including circles and triangles. This library provides a flexible and scalable solution for area calculations, adhering to best development practices.
+**GeometryToolkit** is a library designed to calculate the areas of various geometric shapes, including circles and triangles. This library provides a flexible and scalable solution for area calculations, adhering to best development practices.
 
-Project Structure
+## Project Structure
+
 MindBox.Kubernetes
 ├── geometry-toolkit-manifest.yaml       # Solution for assignment #3
 tests
@@ -33,8 +34,13 @@ MindBox.AreaCalculator  # Solution for assignment #2
             ├── TriangleUtils.cs           # Utility methods for triangles
             └── ValidationExtensions.cs    # Validation extension methods
 
-Installation
-https://github.com/PipainS/GeometryToolkit.git
+## Installation
+
+You can clone the repository using the following command:
+
+```bash
+git clone https://github.com/PipainS/GeometryToolkit.git
+```
 
 Testing
 Unit tests for the library can be found in the MindBox.AreaCalculator.Tests project. You can run the tests using the following command:
