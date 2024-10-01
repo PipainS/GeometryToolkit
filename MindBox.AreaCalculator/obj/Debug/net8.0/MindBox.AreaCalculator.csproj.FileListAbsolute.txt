@@ -1,0 +1,11 @@
+C:\Users\Rail\source\repos\MindBox.AreaCalculator\MindBox.AreaCalculator\bin\Debug\net8.0\MindBox.AreaCalculator.deps.json
+C:\Users\Rail\source\repos\MindBox.AreaCalculator\MindBox.AreaCalculator\bin\Debug\net8.0\MindBox.AreaCalculator.dll
+C:\Users\Rail\source\repos\MindBox.AreaCalculator\MindBox.AreaCalculator\bin\Debug\net8.0\MindBox.AreaCalculator.pdb
+C:\Users\Rail\source\repos\MindBox.AreaCalculator\MindBox.AreaCalculator\obj\Debug\net8.0\MindBox.AreaCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rail\source\repos\MindBox.AreaCalculator\MindBox.AreaCalculator\obj\Debug\net8.0\MindBox.AreaCalculator.AssemblyInfoInputs.cache
+C:\Users\Rail\source\repos\MindBox.AreaCalculator\MindBox.AreaCalculator\obj\Debug\net8.0\MindBox.AreaCalculator.AssemblyInfo.cs
+C:\Users\Rail\source\repos\MindBox.AreaCalculator\MindBox.AreaCalculator\obj\Debug\net8.0\MindBox.AreaCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Rail\source\repos\MindBox.AreaCalculator\MindBox.AreaCalculator\obj\Debug\net8.0\MindBox.AreaCalculator.dll
+C:\Users\Rail\source\repos\MindBox.AreaCalculator\MindBox.AreaCalculator\obj\Debug\net8.0\refint\MindBox.AreaCalculator.dll
+C:\Users\Rail\source\repos\MindBox.AreaCalculator\MindBox.AreaCalculator\obj\Debug\net8.0\MindBox.AreaCalculator.pdb
+C:\Users\Rail\source\repos\MindBox.AreaCalculator\MindBox.AreaCalculator\obj\Debug\net8.0\ref\MindBox.AreaCalculator.dll

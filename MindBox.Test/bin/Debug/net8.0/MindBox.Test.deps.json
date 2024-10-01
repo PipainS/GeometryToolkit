@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MindBox.Test/1.0.0": {
+        "dependencies": {
+          "MindBox.AreaCalculator": "1.0.0"
+        },
+        "runtime": {
+          "MindBox.Test.dll": {}
+        }
+      },
+      "MindBox.AreaCalculator/1.0.0": {
+        "runtime": {
+          "MindBox.AreaCalculator.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MindBox.Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MindBox.AreaCalculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
