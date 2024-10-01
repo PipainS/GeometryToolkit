@@ -13,7 +13,7 @@ tests
 ├── MindBox.AreaCalculator.Tests
 │   ├── CircleTest                        # Unit tests for Circle
 │   └── TriangleTest                      # Unit tests for Triangle
-MindBox.AreaCalculator  # Solution for assignment #2
+MindBox.AreaCalculator                    # Solution for assignment #2
 └── src
     └── ShapeLibrary
         ├── Constants
