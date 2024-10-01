@@ -9,6 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D45766D3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBox.AreaCalculator.Tests", "MindBox.AreaCalculator.Tests\MindBox.AreaCalculator.Tests.csproj", "{D79078CF-B3B9-4EC1-AB95-94A5961D1FCD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MindBox.Kubernetes", "MindBox.Kubernetes", "{C6489683-0954-41AF-9EF5-003DDFF6DD46}"
+	ProjectSection(SolutionItems) = preProject
+		geometry-toolkit-manifest.yaml = geometry-toolkit-manifest.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
